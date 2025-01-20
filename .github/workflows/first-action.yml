@@ -3,7 +3,7 @@ on: workflow_dispatch
 runs-on: ubuntu-latest
 jobs:
   job1:
-    runs-on:
+    runs-on: ubuntu-latest
       steps:
         - name: Greet 1
           run:  echo "Hii Worle!!!"

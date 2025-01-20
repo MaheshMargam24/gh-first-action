@@ -1,5 +1,6 @@
 name: first-workflow-github
 on: workflow_dispatch
+runs-on: ubuntu-latest
 jobs:
   job1:
     steps:

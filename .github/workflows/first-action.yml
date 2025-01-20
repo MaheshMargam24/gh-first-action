@@ -1,0 +1,12 @@
+name: first-workflow-github
+on: workflow_dispatch
+jobs:
+  job1:
+    steps:
+      - name: Greet 1
+        run:  echo "Hii Worle!!!"
+      - name: Greet 2
+        run: echo "Hope you are doing good"
+
+        
+        

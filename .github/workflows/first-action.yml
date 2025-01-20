@@ -3,11 +3,12 @@ on: workflow_dispatch
 runs-on: ubuntu-latest
 jobs:
   job1:
-    steps:
-      - name: Greet 1
-        run:  echo "Hii Worle!!!"
-      - name: Greet 2
-        run: echo "Hope you are doing good"
+    runs-on:
+      steps:
+        - name: Greet 1
+          run:  echo "Hii Worle!!!"
+        - name: Greet 2
+          run: echo "Hope you are doing good"
 
         
         

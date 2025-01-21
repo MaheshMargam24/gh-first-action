@@ -5,9 +5,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Greet 1
-        run:  echo "Hii Worle!!!"
+        run:  |
+          echo "Hii World 1!!!"
+          echo "Hii World 2!!!"
+          echo "Hii World 3!!!"
       - name: Greet 2
-        run: echo "Hope you are doing good"
+        run: |
+          echo "Hope you are doing good"
+          echo "what are your plans today?"
 
         
         
